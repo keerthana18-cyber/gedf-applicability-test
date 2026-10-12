@@ -1,0 +1,30 @@
+
+== WBK-BK
+   decision procedure:      9.4 ms
+   D     = -3*alpha**2*c**2/(2*(alpha*gamma + beta**2)**2)
+   Delta = 27*alpha**3*(C*alpha**2 + c**3)/(8*(alpha*gamma + beta**2)**3)
+   direct solve (parameters symbolic), branch trig :   0.52 s, 0 solution sets, 0 with H1 != 0 and K != 0
+   direct solve (parameters symbolic), branch sinh :   0.51 s, 0 solution sets, 0 with H1 != 0 and K != 0
+   direct solve (parameters symbolic), branch cosh :   0.50 s, 0 solution sets, 0 with H1 != 0 and K != 0
+   direct solve (integration constant C also unknown), branch trig :   0.63 s, 5 solution sets, 2 with H1 != 0 and K != 0
+   direct solve (integration constant C also unknown), branch sinh :   0.83 s, 5 solution sets, 2 with H1 != 0 and K != 0
+   direct solve (integration constant C also unknown), branch cosh :   0.59 s, 5 solution sets, 2 with H1 != 0 and K != 0
+
+== KD
+   decision procedure:     20.2 ms
+   D     = 3*(2*a**2*c - 9*a**2*m**2 + 12*a*b*m - 12*b**2)/4
+   Delta = 27*(C*a**4 - a**3*c*m + 4*a**3*m**3 + 2*a**2*b*c - 12*a**2*b*m**2 + 12*a*b**2*m - 8*b**3)/4
+   direct solve (parameters symbolic), branch trig :   1.25 s, 0 solution sets, 0 with H1 != 0 and K != 0
+   direct solve (parameters symbolic), branch sinh :   1.12 s, 0 solution sets, 0 with H1 != 0 and K != 0
+   direct solve (parameters symbolic), branch cosh :   1.17 s, 0 solution sets, 0 with H1 != 0 and K != 0
+   direct solve (integration constant C also unknown), branch trig :   2.12 s, 5 solution sets, 2 with H1 != 0 and K != 0
+   direct solve (integration constant C also unknown), branch sinh :   2.11 s, 5 solution sets, 2 with H1 != 0 and K != 0
+   direct solve (integration constant C also unknown), branch cosh :   2.58 s, 5 solution sets, 2 with H1 != 0 and K != 0
+
+== KG
+   decision procedure:      3.8 ms
+   D     = 3/((c - 1)**2*(c + 1)**2)
+   Delta = 0
+   direct solve (parameters symbolic), branch trig :   0.27 s, 7 solution sets, 2 with H1 != 0 and K != 0
+   direct solve (parameters symbolic), branch sinh :   0.29 s, 7 solution sets, 2 with H1 != 0 and K != 0
+   direct solve (parameters symbolic), branch cosh :   0.41 s, 7 solution sets, 2 with H1 != 0 and K != 0
