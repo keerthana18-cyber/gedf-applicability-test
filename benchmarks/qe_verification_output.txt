@@ -1,7 +1,0 @@
-Z3 5.1.0
-trig  necessity    (7 coefficient equations): unsat        0.13 s  -> VERIFIED
-trig  sufficiency  (7 coefficient equations): unsat        0.01 s  -> VERIFIED
-sinh  necessity    (7 coefficient equations): unsat        0.01 s  -> VERIFIED
-sinh  sufficiency  (7 coefficient equations): unsat        0.00 s  -> VERIFIED
-cosh  necessity    (7 coefficient equations): unsat        0.00 s  -> VERIFIED
-cosh  sufficiency  (7 coefficient equations): unsat        0.00 s  -> VERIFIED
