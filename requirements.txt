@@ -1,0 +1,2 @@
+sympy
+z3-solver  # optional, only for benchmarks/qe_verification.py
